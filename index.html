@@ -2,9 +2,84 @@
 <html lang="en" style="width:100%; height:100%;">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>downitch's cv</title>
+  <title>downitch's homepage</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background: black;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+    }
+    canvas{
+      display: block;
+      z-index: -999;
+      position: absolute;
+    }
+    #foreground{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+    #content{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    #content h3{
+      font-weight: normal;
+    }
+    #content a{
+      color: white;
+    }
+  </style>
 </head>
-  <body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://downitch.github.io/cv.pdf" style="width:100%; height:100%;" frameborder="0"></iframe>
+  <body style="width:100%; height:100%; margin:0; overflow:hidden;">
+    <canvas id="background"></canvas>
+    <div id="foreground">
+      <div id="content">
+        <h1>Alexandr Romanov</h1>
+        <h3>&nbsp;</h3>
+        <h3>Ethical Hacker</h3>
+        <h3>Web-, Mobile-app, Network penetration testing.</h3>
+        <h3>JavaScript, Golang, Ruby, Python, PHP, Bash</h3>
+        <h3>&nbsp;</h3>
+        <h3>cert: CBBH (2023), OSCP+ (in prep.)</h3>
+        <h3>&nbsp;</h3>
+        <h3>Links: <a href="https://downitch.github.io/cv.pdf">CV.pdf</a>, <a href="https://www.linkedin.com/in/xfced/">LinkedIn</a></h3>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var c = document.getElementById("background");
+      var ctx = c.getContext("2d");
+      c.height = window.innerHeight;
+      c.width = window.innerWidth;
+      var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+      matrix = matrix.split("");
+      var font_size = 10;
+      var columns = c.width/font_size;
+      var drops = [];
+      for(var x = 0; x < columns; x++) drops[x] = 1; 
+      function draw() {
+        ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+        ctx.fillRect(0, 0, c.width, c.height);
+        ctx.fillStyle = "#6aa84f";
+        ctx.font = font_size + "px arial";
+        for(var i = 0; i < drops.length; i++) {
+          var text = matrix[Math.floor(Math.random()*matrix.length)];
+          ctx.fillText(text, i*font_size, drops[i]*font_size);
+          if(drops[i]*font_size > c.height && Math.random() > 0.975) drops[i] = 0;
+          drops[i]++;
+        }
+      }
+      setInterval(draw, 35);
+    </script> 
   </body>
 </html>
