@@ -2,10 +2,7 @@
 <!DOCTYPE svg [
   <!ENTITY test "test phrase">
 ]>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <text x="10" y="20">
-    <xi:include href="http://localhost:3000/etc/hosts" parse="text"/>
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg">
   <text x="20" y="40">&test;</text>
   <image href="https://435lopps0661ukea53szsnxz1q7hvlja.oastify.com/collab.svg?key=wow" width="100" height="100"/>
 </svg>
