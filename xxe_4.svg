@@ -4,5 +4,5 @@
 ]>
 <svg xmlns="http://www.w3.org/2000/svg">
   <text x="20" y="40">&test;</text>
-  <image href="https://hzkzpsb73dlgpuvwppynms5cs3yumnac.oastify.com/collab.svg" width="100" height="100"/>
+  <image href="/downitch/downitch.github.io/refs/heads/main/nested_xss.svg" width="100" height="100"/>
 </svg>
