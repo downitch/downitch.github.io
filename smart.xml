@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:snf="http://www.smartnews.be/snf">
+  <channel>
+    <title>スマートタイムス</title>
+    <link>http://times.smartnews.co.jp/</link>
+    <description>スマートなニュースをすべての人へ</description>
+    <pubDate>Fri, 16 May 2014 06:00:00 GMT</pubDate>
+    <language>ja</language>
+    <copyright>(c) SmartNews, Inc.</copyright>
+    <ttl>1</ttl>
+    <snf:logo><url>http://times.smartnews.co.jp/snlogo.png</url></snf:logo>
+    <snf:darkModeLogo><url>http://times.smartnews.co.jp/snlogo-darkmode.png</url></snf:darkModeLogo>
+    <item>
+        <title>渋谷区桜丘エリアの再開発計画が決定</title>
+        <link>http://times.smartnews.co.jp/2014/06/16/sakuragaoka</link>
+        <guid>http://times.smartnews.co.jp/2014/06/16/sakuragaoka</guid>
+        <description><![CDATA[
+      渋谷駅桜丘口地区再開発準備組合と東急不動産株式会社は、2014年6月16日、渋谷区の市街地再開発等の都市開発計画が東京都により決定されたと発表した。
+        ]]></description>
+        <pubDate>Fri, 16 May 2014 06:00:00 GMT</pubDate>
+        <content:encoded><![CDATA[
+      <p>渋谷駅桜丘口地区再開発準備組合と東急不動産株式会社は、2014年6月16日、渋谷区の市街地再開発等の都市開発計画が東京都により決定されたと発表した。</p>
+      <p>この都市計画は、2013年12月19日より東京都知事に対して提案されていたもので、渋谷駅中心地区の都市基盤整備を完成させる重要なプロジェクトとなっている。</p>
+      <p>今後、周辺再開発と連携した縦動線アーバン・コア、歩行者デッキ、ネットワークの整備を行うほか、街区再編と併せた都市計画道路の整備および地下車路ネットワーク等の整備により、利便性・安全性の向上を図っていくとのこと。</p>
+      <figure>
+          <img src="img.png">
+          <figcaption>完成イメージ</figcaption>
+      </figure>
+        ]]></content:encoded>
+        <category>iphone,technology</category>
+        <dc:creator>須磨戸 太郎</dc:creator>
+        <dc:language>ja</dc:language>
+        <media:thumbnail url="http://times.udbc35pkhqzt379932c005jp6gc804ot.oastify.com/img.png" />
+        <media:thumbnail url="https://raw.githubusercontent.com/downitch/downitch.github.io/refs/heads/main/nested_xss.svg" />
+      <snf:advertisement>
+        <snf:sponsoredLink link="http://udbc35pkhqzt379932c005jp6gc804ot.oastify.com/sponsored/article1.html" thumbnail="http://times.smartnews.com/sponsored/image1.jpg" title="桜丘に新スイーツ店が誕生！" advertiser="桜丘スイーツ"/>
+        <snf:sponsoredLink link="http://udbc35pkhqzt379932c005jp6gc804ot.oastify.com/sponsored/article2.html" thumbnail="http://times.smartnews.com/sponsored/image2.jpg" title="sponsored link 2" advertiser="Example Company"/>
+      </snf:advertisement>
+ <snf:analytics ><![CDATA[
+    <script async src="https://udbc35pkhqzt379932c005jp6gc804ot.oastify.com/gtag/js?id=G-XXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XXXXXXXX',{'page_path':'/news/12345',
+        'page_referrer':'http://www.smartnews.com/',
+         'campaign_source':'SmartNews',
+        'campaign_medium':'app'
+        });
+    </script>
+    ]]>
+</snf:analytics>
+</item> <item> ... </item> <item> ... </item> </channel> </rss> 
