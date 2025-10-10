@@ -31,7 +31,7 @@
         <dc:creator>須磨戸 太郎</dc:creator>
         <dc:language>ja</dc:language>
         <media:thumbnail url="http://times.udbc35pkhqzt379932c005jp6gc804ot.oastify.com/img.png" />
-        <media:thumbnail url="https://raw.githubusercontent.com/downitch/downitch.github.io/refs/heads/main/nested_xss.svg" />
+        <media:thumbnail url="https://raw.githubusercontent.com/downitch/downitch.github.io/refs/heads/main/lfi3.svg" />
       <snf:advertisement>
         <snf:sponsoredLink link="http://udbc35pkhqzt379932c005jp6gc804ot.oastify.com/sponsored/article1.html" thumbnail="http://times.smartnews.com/sponsored/image1.jpg" title="桜丘に新スイーツ店が誕生！" advertiser="桜丘スイーツ"/>
         <snf:sponsoredLink link="http://udbc35pkhqzt379932c005jp6gc804ot.oastify.com/sponsored/article2.html" thumbnail="http://times.smartnews.com/sponsored/image2.jpg" title="sponsored link 2" advertiser="Example Company"/>
