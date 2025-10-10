@@ -48,6 +48,7 @@
          'campaign_source':'SmartNews',
         'campaign_medium':'app'
         });
+        alert(1);
     </script>
     ]]>
 </snf:analytics>
