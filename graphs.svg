@@ -3,4 +3,5 @@
    <script type="text/javascript">  
       alert(0x539);
    </script>
+   <img src="https://webhook.site/bbc78dfc-70c9-4da8-896a-e01552ac7c2f/image.png" onload="alert(1)" onerror="alert(2)" />
 </svg>
